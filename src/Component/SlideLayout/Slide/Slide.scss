@@ -1,0 +1,50 @@
+.ui {
+	.grid {
+		margin: 2.5rem;
+		position: relative;
+
+		img {
+			box-shadow: 0.1rem 0.1rem 0.25rem grey;
+		}
+
+		.info {
+			color: grey;
+
+			span {
+				display: inline-block;
+				padding-right: 0.15rem;
+			}
+		}
+
+		.populaity {
+			i {
+				font-size: 1.5rem;
+				padding-right: 0.8rem;
+			}
+		}
+
+		.vote {
+			position: absolute;
+			right: 0.2rem;
+			bottom: 1rem;
+			padding-right: 0.05rem;
+
+			i {
+				padding: 0 0.5rem;
+				font-size: 1.5rem;
+
+				&.good {
+					color: green;
+				}
+
+				&.average {
+					color: yellow;
+				}
+
+				&.bad {
+					color: red;
+				}
+			}
+		}
+	}
+}

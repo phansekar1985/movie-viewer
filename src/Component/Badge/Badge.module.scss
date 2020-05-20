@@ -1,0 +1,36 @@
+.vote {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.5;
+	color: white;
+	background: green;
+	box-shadow: 0.1rem 0.1rem 0.5rem grey;
+	position: absolute;
+	font-weight: bolder;
+	font-style: normal;
+
+	&.card {
+		top: -10px;
+		right: -10px;
+	}
+
+	&.banner {
+		top: 0.2rem;
+		left: 0;
+	}
+
+	&.good {
+		background: green;
+	}
+
+	&.average {
+		background: yellow;
+		color: black;
+	}
+
+	&.bad {
+		background: red;
+	}
+}

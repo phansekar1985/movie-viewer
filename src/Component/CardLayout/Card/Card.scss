@@ -1,0 +1,30 @@
+.swiper-slide {
+	&.card {
+		position: relative;
+		margin-top: 30px;
+		cursor: pointer;
+
+		.image {
+			img {
+				height: 300px;
+			}
+		}
+
+		.ui {
+			&.card {
+				transition: all 0.5s linear;
+
+				&:hover {
+					transform: scale(1.05);
+				}
+
+				.content {
+					.header {
+						font-size: 12px;
+						height: 40px;
+					}
+				}
+			}
+		} 
+	}
+}

@@ -1,0 +1,31 @@
+.movieDetailContainer {
+	.moreInfo {
+		color: grey;
+		margin-bottom: 0.75rem;
+	}
+
+	.imageContainer {
+		position: relative;
+
+		.poster {
+			box-shadow: 0.1rem 0.1rem 0.25rem grey;
+			border-radius: 1.5rem;
+		}
+
+		.genre {
+			position: absolute;
+			top: 1rem;
+			color: white;
+
+			.genreItem {
+				padding: 0.5rem;
+				margin: 0.5rem 0;
+				border-radius: 0.25rem;
+				background: linear-gradient(
+					rgba(240, 0, 0, 0.2),
+					rgba(0, 0, 0, 0.4)
+				);
+			}
+		}
+	}
+}
